@@ -1,0 +1,22 @@
+{
+  "name": "playwright-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brosoto-cmd/playwright-workspace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brosoto-cmd/playwright-workspace/issues"
+  },
+  "homepage": "https://github.com/brosoto-cmd/playwright-workspace#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.2"
+  }
+}
