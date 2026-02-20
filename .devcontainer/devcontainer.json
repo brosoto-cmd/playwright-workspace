@@ -2,6 +2,7 @@
   "name": "Playwright Dev Container",
   "image": "node",
   "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
   "customizations": {
     "vscode": {
       "extensions": [
