@@ -1,7 +1,8 @@
 {
   "name": "Playwright Dev Container",
-  "image": "node",
-  "workspaceFolder": "/workspace",
+  "image": "mcr.microsoft.com/playwright:v1.41.2-jammy",
+  "workspaceFolder": "/projects",
+  "postCreateCommand": "npm install && npx playwright install --with-deps",
   "customizations": {
     "vscode": {
       "extensions": [
